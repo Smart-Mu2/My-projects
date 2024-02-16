@@ -1,0 +1,85 @@
+body{
+    background-image: url(../Images/ef7085be91d78613f0938fee57e45f4a.jpg);
+    background-position: center;
+    text-align: justify;
+    text-shadow: 3px 2px black;
+    color: white;
+    font-family:monospace;
+    font-size: large;
+}
+table, th, td{
+    text-align: center;
+    border: 2px solid black;
+    color: brown;
+    background-size: cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+table{
+    background-image: url(../Images/pngtree-modern-simple-elegant-beautiful-color-website-landing-page-background-image_757350.jpg);
+    border-collapse: collapse;
+    text-shadow: none;
+}
+tr:hover{
+    background-color: green;
+}
+h1,h2{
+    text-align: center;
+}
+#top{
+    border: 5px solid goldenrod;
+    background-image: url(../Images/abstract-background-design-images-wallpaper-ai-generated_643360-93876.avif);
+    color: #fff;
+}
+a{
+    color: gold;
+}
+th{
+    font-size: large;
+    color: black;
+}
+ol, ul{
+    font-style: italic;
+}
+.fixed{
+    padding: 5px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    border-bottom: 3px solid goldenrod;
+    background-color: #225896;
+
+}
+button, form{
+    background-color: skyblue;
+    border: 1px solid black;
+    float: right;
+    margin: 0 10px;
+}
+input{
+    margin: 0;
+    border: 1px solid black;
+    background-color: skyblue;
+
+}
+button{
+    padding: 3px 5px;
+}
+p::first-letter{
+    color: yellow;
+    font-size: 20px;
+}
+::selection{
+    background-color: green;
+    color: black;
+}
+::-moz-selection{
+    background-color: green;
+    color: black;
+}
+p{
+    text-indent: 50px;
+    text-transform: capitalize;
+}

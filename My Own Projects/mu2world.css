@@ -1,0 +1,20 @@
+body{
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+#mu2-1{
+    border: 5px solid #96a747;
+    color: #96a747;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ol{
+    color: white;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    background-size: cover;
+}
+a{
+    color: #96a747;
+}
