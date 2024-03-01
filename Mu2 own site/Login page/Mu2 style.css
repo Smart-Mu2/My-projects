@@ -1,0 +1,70 @@
+body{
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+/* Heater content */
+#mu2-1{
+    border: 5px solid white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Login Box */
+#align{
+    display: flex;
+    justify-content: center;
+}
+#relative{
+    border: 5px solid white;
+    background-color: darkblue; 
+    width: 500px; height: 390px; 
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#relative > #absolute{
+    
+    border: 3px solid white;
+    padding: 20px 40px;
+    height: 220px; width: 250px;
+}
+#relative > #absolute > form > input {
+    background-color: skyblue;
+    border: 3px solid blue;
+    outline: 1px solid white;
+    padding: 3px 2px;
+}
+#relative > #absolute > form > #sub > input{
+    border: 3px solid skyblue;
+    border-radius: 10px;
+    background-color: blue;
+    font-weight: bold;
+    color: yellow;
+}
+#relative > #absolute > form > #sub{
+    text-align: center;
+}
+
+/* Register page link */
+a{
+    color: yellow;
+}
+a:visited{
+    color: skyblue;
+}
+a:hover{
+    color: hotpink;
+    font-size: 15px;
+}
+a:active{
+    color: blue;
+}
+#flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-flow: row nowrap;
+    font-size: 12px;
+}
