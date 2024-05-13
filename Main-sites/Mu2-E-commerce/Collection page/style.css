@@ -107,8 +107,6 @@ body {
     border-radius: 10px;
 }
 
-
-
 /* Footer */
 .footer {
     margin-top: 20px;
@@ -125,17 +123,5 @@ body {
 
     .nav-link {
         display: none;
-    }
-
-    .header-image {
-        display: none;
-    }
-
-    .service-container-1 {
-        display: none;
-    }
-
-    .service-container-2 {
-        flex-direction: column;
     }
 }

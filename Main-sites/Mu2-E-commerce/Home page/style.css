@@ -50,6 +50,7 @@ body {
     padding: 20px;
     color: #1d232c;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    z-index: 1;
     transition: 2s;
 }
 
